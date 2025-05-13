@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.use(cors({
-    origin: ['http://localhost:8000','http://localhost:3000' ],
+    origin: ['http://localhost:8000','http://localhost:3000,https://blog-app-gamma-two.vercel.app' ],
     credentials: true,
     optionsSuccessStatus: 200
   }));
